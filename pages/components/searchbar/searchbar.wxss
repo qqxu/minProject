@@ -1,0 +1,5 @@
+@import "../../../weui.wxss";
+
+.weui-search-bar__cancel-btn {
+    font-size: 14px;
+}

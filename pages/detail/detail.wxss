@@ -1,0 +1,38 @@
+.container {
+  background-color: rgb(245, 245, 237);
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 60rpx auto 30rpx auto;
+}
+
+.name {
+  text-align: center;
+  font-size: 40rpx;
+}
+
+.pronounce {
+  text-align: center;
+  color: #9A9DA0;
+  font-size: 30rpx;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx;
+}
+
+.label {
+  color: #9A9DA0;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+.value {
+  font-size: 34rpx;
+}

@@ -1,0 +1,33 @@
+.inputItem {
+  background: #fff;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #eaeaea;
+  margin: 0 30rpx;
+  height: 100rpx;
+}
+
+.label {
+  margin: 0;
+  padding: 0;
+  color: #333e45;
+  font-size: 28rpx;
+}
+
+.ipt {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  color: #333e45;
+  font-size: 28rpx;
+}
+
+.placeholder {
+  color: #9a9da0;
+  font-size: 28rpx;
+}
