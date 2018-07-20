@@ -1,0 +1,6 @@
+<view class="inputItem">
+  <view class="left">
+    <label class="label">{{ label }}</label>
+    <input class="ipt" bindtap='customMethod' type="{{ type }}" placeholder="{{ placeholder }}" placeholder-class="placeholder" value="{{ value }}" />
+  </view>
+</view>

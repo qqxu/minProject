@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "InputItem": "../components/InputItem/InputItem"
+  }
+
+}

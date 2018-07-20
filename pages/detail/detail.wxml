@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="top">
+    <text class="name">{{info.name || '无'}}</text>
+    <text class="pronounce">{{info.pronounce || '无'}}</text>
+  </view>
+  <view class="row">
+    <text class="label">释义</text>
+    <text class="value">{{info.content || '无'}}</text>
+  </view>
+  <view class="row">
+    <text class="label">出自</text>
+    <text class="value">{{info.comefrom || '无'}}</text>
+  </view>
+
+  <view class="row">
+    <text class="label">近义词</text>
+    <text class="value">{{info.thesaurus || '无'}}</text>
+  </view>
+
+  <view class="row">
+    <text class="label">反义词</text>
+    <text class="value">{{info.antonym || '无'}}</text>
+  </view>
+
+   <view class="row" hidden="{{!info.example}}">
+    <text class="label">示例</text>
+    <text class="value">{{info.example}}</text>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+page {
+  background-color: rgb(245, 245, 237);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 

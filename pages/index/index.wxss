@@ -1,0 +1,25 @@
+@import "../../weui.wxss";
+
+.container {
+    position: relative;
+}
+
+.bg-img {
+    position: absolute;
+    top: 100rpx;
+    right: 0;
+    width: 439rpx;
+    height: 690rpx;
+}
+
+.no-data {
+  font-size: 30rpx;
+  color: #9A9DA0;
+  text-align: center;
+  margin: 360rpx auto;
+}
+
+.weui-cell__bd {
+  color: #333e45;
+  font-size: 30rpx;
+}

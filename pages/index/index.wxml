@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="bg-img" mode="scaleToFill" src="../../images/1.jpeg"></image>
+  <searchbar bind:onSearch="onSearch" bind:clearResults="clearResults"></searchbar>
+  <view class="no-data" hidden="{{ !noData }}">
+    <text>无相关数据哦</text>
+  </view>
+  <view wx:for="{{searchResult}}" wx:for-item="itm" wx:key="{{itm.name}}" >
+    <navigator url="/pages/detail/detail?word={{itm.name}}" class="weui-cell" hover-class="weui-cell_active" >
+      <view class="weui-cell__bd">
+        <view>{{itm.name}}</view>
+      </view>
+    </navigator>
+  </view>
+</view>
